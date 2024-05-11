@@ -1,0 +1,20 @@
+@import "./utiles/vars";
+@import "./utiles/keyframes";
+@import "./utiles/placeholders";
+@import "./utiles/mixins";
+
+@import "./base/reset";
+@import "./base/common";
+@import "./base/container";
+
+@import "./components/scroll-to-top";
+
+@import "./sections/header";
+@import "./sections/hero";
+@import "./sections/about";
+@import "./sections/program";
+@import "./sections/speakers";
+@import "./sections/price";
+@import "./sections/rewies";
+@import "./sections/registration";
+@import "./sections/footer";
