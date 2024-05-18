@@ -1,0 +1,44 @@
+.price {
+
+    &__title {
+        font-family: "Montserrat Alternates", sans-serif;
+        font-weight: 500;
+        font-size: 32px;
+        text-align: center;
+        color: #2e2520;
+    }
+
+    &__list {}
+
+    &__item {}
+
+    &__subtitle {
+        font-family: "Montserrat Alternates", sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        text-align: center;
+        color: #3c322d;
+    }
+
+    &__details {}
+
+    &__detail {}
+
+    &__icon {}
+
+    &__text {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        color: #3c322d;
+    }
+
+    &__btn {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        color: #fff;
+        border: none;
+        background-color: #f3848c;
+    }
+}
