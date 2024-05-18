@@ -1,0 +1,33 @@
+.footer {
+    &__subheader {
+      font-weight: 500;
+      font-size: 32px;
+      color: #2e2520;
+      font-family: "Montserrat Alternates", sans-serif;
+      text-align: center;
+    }
+    &__text {
+      font-weight: 400;
+      font-size: 18px;
+      text-align: center;
+      color: #2e2520;
+    }
+    &__btn {
+      font-weight: 400;
+      font-size: 18px;
+      text-align: center;
+      color: #fff;
+      border: none;
+      background-color: #f3848c;
+    }
+    &__phone {
+      width: 109px;
+      height: 20px;
+      text-decoration: none;
+    }
+    &__location {
+      width: 76px;
+      height: 20px;
+      text-decoration: none;
+    }
+  }
