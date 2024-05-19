@@ -152,6 +152,76 @@ body {
   }
 }
 
+
+.speakers__title {
+  color: var(--, #3C322D);
+  text-align: center;
+  font-family: "Montserrat Alternates";
+  font-size: 24px;
+  font-weight: 500;
+}
+@media screen and (min-width: 736px) {
+  .speakers__title {
+    font-size: 32px;
+  }
+}
+.speakers__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 280px;
+  padding-bottom: 101px;
+}
+@media screen and (min-width: 736px) {
+  .speakers__list {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 32px;
+    width: 704px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .speakers__list {
+    gap: 104px;
+    width: 1141px;
+  }
+}
+.speakers__sub-title {
+  color: var(--, #3C322D);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 736px) {
+  .speakers__sub-title {
+    font-size: 18px;
+  }
+}
+.speakers__text {
+  color: var(--, #3C322D);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 500;
+  max-width: 130px;
+}
+@media screen and (min-width: 736px) {
+  .speakers__text {
+    font-size: 14px;
+    max-width: 151px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .speakers__text {
+    font-size: 16px;
+    max-width: 181px;
+  }
+}
+
+
 .price__title {
   font-family: "Montserrat Alternates", sans-serif;
   font-weight: 500;
@@ -218,6 +288,7 @@ body {
     font-weight: 500;
   }
 }
+
 
 .footer__subheader {
   font-weight: 500;
