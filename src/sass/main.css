@@ -27,6 +27,41 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+.container {
+  max-width: 300px;
+  width: 100%;
+  padding: 0 10px;
+  outline: solid red;
+  margin: 0 auto;
+}
+@media screen and (min-width: 736px) {
+  .container {
+    max-width: 736px;
+    padding: 0 16px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+.about__title {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  text-align: center;
+  color: #2e2520;
+}
+.about__text {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #3C322D;
+}
+
 .program__title {
   font-family: "Montserrat Alternates", sans-serif;
   font-weight: 500;
@@ -115,4 +150,133 @@ body {
   .program__desc {
     font-size: 26px;
   }
+}
+
+.speakers__title {
+  color: var(--, #3C322D);
+  text-align: center;
+  font-family: "Montserrat Alternates";
+  font-size: 24px;
+  font-weight: 500;
+}
+@media screen and (min-width: 736px) {
+  .speakers__title {
+    font-size: 32px;
+  }
+}
+.speakers__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 280px;
+  padding-bottom: 101px;
+}
+@media screen and (min-width: 736px) {
+  .speakers__list {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 32px;
+    width: 704px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .speakers__list {
+    gap: 104px;
+    width: 1141px;
+  }
+}
+.speakers__sub-title {
+  color: var(--, #3C322D);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 736px) {
+  .speakers__sub-title {
+    font-size: 18px;
+  }
+}
+.speakers__text {
+  color: var(--, #3C322D);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 500;
+  max-width: 130px;
+}
+@media screen and (min-width: 736px) {
+  .speakers__text {
+    font-size: 14px;
+    max-width: 151px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .speakers__text {
+    font-size: 16px;
+    max-width: 181px;
+  }
+}
+
+.price__title {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  text-align: center;
+  color: #2e2520;
+}
+.price__subtitle {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  color: #3c322d;
+}
+.price__text {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #3c322d;
+}
+.price__btn {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #fff;
+  border: none;
+  background-color: #f3848c;
+}
+
+.footer__subheader {
+  font-weight: 500;
+  font-size: 32px;
+  color: #2e2520;
+  font-family: "Montserrat Alternates", sans-serif;
+  text-align: center;
+}
+.footer__text {
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  color: #2e2520;
+}
+.footer__btn {
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  color: #fff;
+  border: none;
+  background-color: #f3848c;
+}
+.footer__phone {
+  width: 109px;
+  height: 20px;
+  text-decoration: none;
+}
+.footer__location {
+  width: 76px;
+  height: 20px;
+  text-decoration: none;
 }/*# sourceMappingURL=main.css.map */
