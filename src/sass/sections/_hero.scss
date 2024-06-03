@@ -1,30 +1,47 @@
+.hero {
+  background-image: url(../../img/hero-bacground.webp),
+    url(../../img/bacground-hero.webp);
+  background-repeat: no-repeat;
+  background-size: cover, 838px 1078px;
+  background-position: center, right;
+  max-width: 1440px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: $bg-color;
+  padding-top: 460px;
+  padding-bottom: 328px;
+}
+
 .hero-title {
-    color: $accent-color;
-    font-family: Nunito;
-    font-size: 68px;
-    font-style: italic;
-    font-weight: 600;
-    line-height: 66px;
-    letter-spacing: -3.4px;
+  color: $accent-color;
+  font-family: Nunito;
+  font-size: 68px;
+  font-style: italic;
+  font-weight: 600;
+  line-height: 66px;
+  letter-spacing: -3.4px;
+  margin-bottom: 24px;
 }
 
 .hero-text {
-    color: $text-color;
-    font-family: "Roboto Condensed";
-    font-size: 24px;
-    font-style: italic;
-    font-weight: 400;
-    line-height: 36px;
-    letter-spacing: -0.96px;
+  color: $text-color;
+  font-family: "Roboto Condensed";
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: -0.96px;
+  max-width: 400px;
+  margin-bottom: 64px;
 }
 
 .hero-btn {
-    display: flex;
-    width: 480px;
-    padding: 16px 102px;
-    justify-content: center;
-    align-items: center;
-    border-radius: 20px;
-    border: 2px solid #2B9EE7;
-    background: #C9E4EA;
+  display: flex;
+  width: 480px;
+  padding: 16px 102px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  border: 2px solid #2b9ee7;
+  background: #c9e4ea;
 }
