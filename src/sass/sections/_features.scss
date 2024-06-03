@@ -1,0 +1,95 @@
+.features {
+  padding-top: 120px;
+  padding-bottom: 121px;
+  position: relative;
+  background-color: $fon-color;
+}
+
+.features-tittle {
+  font-family: Nunito;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 56px;
+  letter-spacing: -2px;
+  color: $text-color;
+  text-align: center;
+  position: relative;
+}
+
+.features-tittle::before {
+  content: "";
+  display: block;
+  width: 880px;
+  height: 4px;
+  background-color: $border-color;
+  position: absolute;
+  bottom: -8px;
+  right: 0;
+}
+
+.features-builings,
+.features-city {
+  width: 450px;
+  height: 628px;
+  border-radius: 8px;
+}
+
+.features-builings {
+  position: absolute;
+  z-index: 1;
+  top: 17%;
+}
+
+.features-city {
+  position: absolute;
+  top: 38%;
+  left: 29%;
+}
+
+.features-nomber {
+  font-family: Nunito;
+  font-size: 68px;
+  font-style: italic;
+  font-weight: 600;
+  line-height: 66px;
+  letter-spacing: -3.4px;
+  margin-bottom: 16px;
+}
+
+.features-text {
+  font-family: Nunito;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 56px;
+  letter-spacing: -2px;
+  margin-bottom: 16px;
+}
+
+.features-item {
+  width: 250px;
+}
+
+.features-item:nth-child(2) {
+  color: $text-sale;
+}
+
+.features-item:nth-child(3) {
+  color: $text-sale;
+}
+.features-item:nth-child(1) {
+  color: $accent-color;
+}
+
+.features-item:nth-child(4) {
+  color: $accent-color;
+}
+
+.features-list {
+  gap: 40px;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: end;
+  padding-top: 296px;
+  padding-bottom: 237px;
+}
