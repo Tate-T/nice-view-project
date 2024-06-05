@@ -1,0 +1,117 @@
+footer {
+    padding: 24px 0 57px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-box {
+    display: flex;
+    gap: 160px;
+}
+
+.footer-item {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.footer-addres {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.footer-networks {
+    display: flex;
+    flex-direction: column;
+    margin-left: 112px;
+    margin-right: 47px;
+}
+
+.networks-item:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-title {
+    margin-bottom: 16px;
+    text-align: center;
+    color: var(--title-1, #DDE5E8);
+    font-family: "Roboto Condensed";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: -1.12px;
+}
+
+.footer-text {
+    color: var(--title-1, #DDE5E8);
+    font-family: "Roboto Condensed";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.64px;
+}
+
+.addres-title {
+    color: var(--title-1, #DDE5E8);
+    font-family: "Roboto Condensed";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.64px;
+}
+
+.addres-text {
+    color: var(--title-1, #DDE5E8);
+    font-family: "Roboto Condensed";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.64px;
+}
+
+.networks-title {
+    color: var(--title-1, #DDE5E8);
+    font-family: "Roboto Condensed";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.64px;
+}
+
+.svg-youtube {
+    width: 68px;
+    height: 24px;
+    margin-bottom: 16.39px;
+}
+
+.svg-instagram {
+    width: 68.047px;
+    height: 25.442px;
+    fill: #343433;
+    margin-bottom: 6px;
+}
+
+.svg-facebook {
+    width: 24px;
+    height: 24px;
+    margin-right: 12px;
+}
+
+.svg-telegram {
+    width: 24px;
+    height: 24px;
+}
+
+.footer-logo {
+    margin-top: 23px;
+    width: 148px;
+    height: 172px;
+    flex-shrink: 0;
+}
