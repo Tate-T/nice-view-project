@@ -1,0 +1,106 @@
+.form {
+    padding: 119px 0 158px 0;
+}
+
+.form-list {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.form-item {
+    display: flex;
+    align-items: center;
+}
+
+.form-title {
+    position: relative;
+    text-align: center;
+    color: $text-color;
+    font-family: Nunito;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 56px;
+    letter-spacing: -2px;
+    margin-bottom: 32px;
+}
+
+.form-title::before {
+    content: "";
+    width: 880px;
+    height: 4px;
+    background-color: #ceb181;
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+}
+
+.form-warning {
+    color: $text-color;
+    font-family: "Roboto Condensed";
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: -0.96px;
+    margin-bottom: 32px;
+}
+
+.form-text {
+    color: $text-color;
+    font-family: "Roboto Condensed";
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: -0.96px;
+}
+
+.form-text1 {
+    margin-right: 166px;
+}
+
+.form-text2 {
+    margin-right: 48px;
+}
+
+.form-text3 {
+    margin-right: 96px;
+}
+
+.form-input {
+    width: 862px;
+    height: 60px;
+    padding: 12px 0px 12px 24px;
+    border-radius: 8px;
+    border: 1px solid var(--Stroke-1, #161614);
+    background: $fon-color;
+}
+
+.form-input::placeholder {
+    color: #BFBFBF;
+    font-family: "Roboto Condensed";
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: -0.96px;
+}
+
+.form-btn {
+    margin: 40px auto 0;
+    color: var(--Button-CALL, #2B9EE7);
+    font-family: "Roboto Condensed";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: -0.96px;
+    display: flex;
+    padding: 16px 202px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 2px solid #2B9EE7;
+    background: #C9E4EA;
+    cursor: pointer;
+}
