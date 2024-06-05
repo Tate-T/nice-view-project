@@ -19,5 +19,13 @@
 <symbol id="icon-play" viewBox="0 0 26 32">
 <path style="fill: var(--color6, #fbfcfc)" d="M25.266 16l-24.453 15.116v-30.232l24.453 15.116z"></path>
 </symbol>
+<symbol id="icon-icon-button-left" viewBox="0 0 32 32">
+<path d="M31.75 16c0 8.837-7.051 16-15.75 16s-15.75-7.163-15.75-16c0-8.837 7.051-16 15.75-16s15.75 7.163 15.75 16z"></path>
+<path d="M8.012 16.304l10.968-7.379 0.563 13.845-11.531-6.466z"></path>
+</symbol>
+<symbol id="icon-icon-button-right" viewBox="0 0 32 32">
+<path d="M31.679 16c0 8.837-7.020 16-15.679 16s-15.679-7.163-15.679-16c0-8.837 7.020-16 15.679-16s15.679 7.163 15.679 16z"></path>
+<path d="M22.913 16l-11.208 6.928v-13.856l11.208 6.928z"></path>
+</symbol>
 </defs>
 </svg>
