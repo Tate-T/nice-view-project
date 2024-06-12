@@ -1,0 +1,41 @@
+.infrastructure {
+
+
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        height: 738px;
+        gap: 16px;
+        margin-top: 24px;
+        padding-bottom: 119px;
+    }
+
+    &__item {
+        color: var(--subtitle-1, #324052);
+        /* desktop/h2 */
+        font-family: Nunito;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 56px;
+        /* 140% */
+        letter-spacing: -2px;
+        padding-left: 584px;
+    }
+
+    &__text {
+        color: var(--subtitle-1, #324052);
+
+        /* desktop/h3 */
+        font-family: "Roboto Condensed";
+        font-size: 24px;
+        font-style: italic;
+        font-weight: 400;
+        line-height: 36px;
+        /* 150% */
+        letter-spacing: -0.96px;
+        margin-top: 40px;
+    }
+
+}
