@@ -8,6 +8,7 @@
     &__container {
         display: flex;
         justify-content: center;
+        align-items: center;
     }
 
     &__headline {
@@ -21,6 +22,18 @@ font-weight: 400;
 line-height: 56px; /* 140% */
 letter-spacing: -2px;
 text-align: center;
+position: relative;
+margin-bottom: 26px;
+    }
+
+    &__headline::before {
+        content: "";
+        width: 880px;
+        height: 4px;
+        background-color: #ceb181;
+        position: absolute;
+        bottom: -8px;
+        right: 0;
     }
 
 
@@ -34,24 +47,44 @@ text-align: center;
     &__list {
         display: flex;
         justify-content: center;
+        position: relative;
+    }
+
+    &__img {
+        border-radius: 8px;
+        width: 400px;
+height: 400px;
+flex-shrink: 0;
+background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+    }
+
+    &__img-2 {
+        width: 501px;
+        height: 497px;
+        flex-shrink: 0;
+    }
+
+    &__img-3 {
+        width: 400px;
+height: 400px;
+flex-shrink: 0;
     }
 
     &__svg {
         width: 47.249px;
 height: 48px;
 flex-shrink: 0;
-fill: var(--1, #CEB181);
     }
 
 
     &__button {
-display: flex;
+display: block;
 padding-left: 108px;
 padding-right: 108px;
 padding-top: 16px;
 padding-bottom: 16px;
-justify-content: center;
-align-items: center;
+margin-left: auto;
+margin-right: auto;
 gap: 8px;
 border-radius: 20px;
 border: 2px solid #2B9EE7;
