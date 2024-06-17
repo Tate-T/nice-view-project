@@ -1,3 +1,7 @@
+
+
+
+
 .logo{
     color: var(--subtitle-1, #324052);
 /* desktop/h2 */
@@ -8,6 +12,9 @@ font-weight: 400;
 line-height: 56px; /* 140% */
 letter-spacing: -2px;
 margin-left: 500px;
+margin-bottom: 32px;
+padding-bottom: 8px;
+border-bottom: 4px solid #CEB181;;
 }
 
 
@@ -21,7 +28,22 @@ font-style: italic;
 font-weight: 600;
 line-height: 66px; /* 97.059% */
 letter-spacing: -3.4px;
+
 }
+
+.blue-text2{
+    color: var(--title-1, #2E688D);
+/* desktop/h1 */
+font-family: Nunito;
+font-size: 68px;
+font-style: italic;
+font-weight: 600;
+line-height: 66px; /* 97.059% */
+letter-spacing: -3.4px;
+margin-left: 117px;
+
+}
+
 
 
 .info-text{
@@ -33,39 +55,68 @@ font-style: italic;
 font-weight: 400;
 line-height: 36px; /* 150% */
 letter-spacing: -0.96px;
+width: 559px;
+margin-top: 24px;
+}
+
+
+.info-text2{
+    color: var(--subtitle-1, #324052);
+/* desktop/h3 */
+font-family: "Roboto Condensed";
+font-size: 24px;
+font-style: italic;
+font-weight: 400;
+line-height: 36px; /* 150% */
+letter-spacing: -0.96px;
+width: 559px;
+margin-left: 445px;
+margin-top: 24px;
 }
 
 
 
+.info-text3{
+    color: var(--subtitle-1, #324052);
+/* desktop/h3 */
+font-family: "Roboto Condensed";
+font-size: 24px;
+font-style: italic;
+font-weight: 400;
+line-height: 36px; /* 150% */
+letter-spacing: -0.96px;
+width: 559px;
+margin-left: 117px;
+margin-top: 24px;
 
+}
 
 
 
 .photo1{
-    position: relative;
-    left: 710px;
-    // bottom: 670px;
+   position: relative;
+   
+   left: 692px;
+  
 }
 
-.photo11{
-    position: relative;
-    left: 710px;
-   
-}
+
+
 
 
 .photo2{
    position: relative;
-   bottom: 340px;
+  
 }
 
 
 
+
+
 .text-item1{
-//    margin-left: 60px;
-//    margin-top: 300px;
-margin-left: 60px;
-margin-top: 250px;
+position: relative;
+top: 288px;
+left: 60px;
 
 }
 
@@ -74,6 +125,62 @@ margin-top: 250px;
    position: relative;
    
 left: 670px;
-top: 100px;
+top: 288px;
 
+
+}
+
+
+@media screen and ( max-width:768px){
+
+
+    .photo1{
+       
+       position: relative;
+      left: 0px;
+     
+       
+     }
+
+     .photo2{
+        position: relative;
+        left: 0px;
+       
+       
+     }
+     
+
+
+
+     .text-item1{
+   width: 332px;
+        position: relative;
+        left: 714px;
+        top: 288px;
+      
+   
+     }
+
+     
+     .text-item2{
+      margin-left: 24px;
+        width: 332px;
+   
+       
+     
+     }
+
+    
+    .info-text2{
+        margin-left: 0px;
+    }
+     
+
+    .blue-text2{
+        margin-left: 0px;
+    }
+
+    .info-text3{
+        margin-left: 0px;
+    }
 }
