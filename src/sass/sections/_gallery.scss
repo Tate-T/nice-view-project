@@ -118,18 +118,17 @@ box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.50);
 
     }
 
+&__img-pos-left {
+    position: absolute;
+    top: 10%;
+    right: 370px;
+}
 
-    &__img-z {
-        z-index: 2;
-    }
-
-// &__img-pos-left {
-
-// }
-
-// &__img-pos-right {
-
-// }
+&__img-pos-right {
+    position: absolute;
+    top: 10%;
+    left: 370px;
+}
 
 
     &__svg {
@@ -155,12 +154,12 @@ flex-shrink: 0;
 
 
     &__svg-left {
-         margin-right: 64px;
+         margin-right: 362px;
     }
 
 
     &__svg-right {
-        margin-left: 64px;
+        margin-left: 362px;
     }
 
 
