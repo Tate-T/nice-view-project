@@ -7,35 +7,84 @@
         flex-direction: column;
         height: 738px;
         gap: 16px;
-        margin-top: 24px;
-        padding-bottom: 119px;
+        margin-top: 12px;
+        padding-bottom: 56px;
+
+        @media screen and (min-width: 678px) {
+            height: 738px;
+            padding-bottom: 100px;
+            margin-top: 24px;
+        }
+
+        @media screen and (min-width: 1340px) {
+            height: 738px;
+            padding-bottom: 119px;
+        }
     }
 
     &__item {
         color: var(--subtitle-1, #324052);
-        /* desktop/h2 */
+        /* mobile/h2 */
         font-family: Nunito;
-        font-size: 40px;
-        font-style: normal;
+        font-size: 24px;
         font-weight: 400;
-        line-height: 56px;
-        /* 140% */
-        letter-spacing: -2px;
-        padding-left: 584px;
+        line-height: 36px;
+        /* 150% */
+        letter-spacing: -1.2px;
+        padding-left: 16px;
+
+        @media screen and (min-width: 678px) {
+            /* tablet/h2 */
+            font-size: 40px;
+            line-height: 48px;
+            /* 120% */
+            letter-spacing: -2px;
+            padding-left: 32px;
+        }
+
+        @media screen and (min-width: 1340px) {
+            /* desktop/h2 */
+            font-size: 40px;
+            line-height: 56px;
+            /* 140% */
+            padding-left: 584px;
+        }
     }
 
     &__text {
         color: var(--subtitle-1, #324052);
 
-        /* desktop/h3 */
+        /* mobile/text */
         font-family: "Roboto Condensed";
-        font-size: 24px;
-        font-style: italic;
+        font-size: 14px;
         font-weight: 400;
-        line-height: 36px;
-        /* 150% */
-        letter-spacing: -0.96px;
-        margin-top: 40px;
+        line-height: 20px; /* 142.857% */
+        letter-spacing: -0.56px;
+        margin-top: 12px;
+
+        @media screen and (min-width: 678px) {
+            /* tablet/text */
+            font-size: 24px;
+            line-height: 36px;
+            /* 150% */
+            letter-spacing: -0.96px;
+            margin-top: 24px;
+        }
+
+        @media screen and (min-width: 1340px) {
+            /* desktop/h3 */
+            font-size: 24px;
+            font-style: italic;
+            /* 150% */
+            margin-top: 40px;
+        }
+    }
+
+    &__title {
+
+        @media screen and (min-width: 678px) {}
+
+        @media screen and (min-width: 1340px) {}
     }
 
 }
