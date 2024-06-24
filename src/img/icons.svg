@@ -43,5 +43,11 @@
 <symbol id="tablet-icon-telegram" viewBox="0 0 32 32">
 <path stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="1.5004" d="M16 0.762c-8.415 0-15.238 6.823-15.238 15.238s6.823 15.238 15.238 15.238c8.415 0 15.238-6.823 15.238-15.238s-6.823-15.238-15.238-15.238zM23.484 11.201l-2.502 11.784c-0.184 0.836-0.682 1.039-1.377 0.645l-3.81-2.806-1.836 1.77c-0.090 0.116-0.205 0.211-0.337 0.276s-0.277 0.099-0.424 0.099h-0.006l0.27-3.878 7.060-6.377c0.305-0.27-0.069-0.424-0.474-0.154l-8.723 5.493-3.759-1.173c-0.813-0.258-0.836-0.813 0.171-1.211l14.687-5.661c0.683-0.249 1.162 0.427 1.026 1.344l0.032-0.15z"></path>
 </symbol>
+<symbol id="icon-bttn-left-gallery" viewBox="0 0 32 32">
+<path fill="#fbfcfc" style="fill: var(--color1, #fbfcfc); stroke: var(--color2, #8d6515)" stroke="#8d6515" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="1.6583" d="M3.368 16l18.947 10.939v-21.879l-18.947 10.939z"></path>
+</symbol>
+<symbol id="icon-bttn-right-gallery" viewBox="0 0 27 32">
+<path fill="#fbfcfc" style="fill: var(--color1, #fbfcfc); stroke: var(--color2, #8d6515)" stroke="#8d6515" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="2.1005" d="M25.067 16l-24 13.856v-27.713l24 13.856z"></path>
+</symbol>
 </defs>
 </svg>
