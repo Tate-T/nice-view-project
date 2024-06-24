@@ -6,11 +6,11 @@ footer {
 .footer-container {
     display: flex;
     justify-content: space-between;
+    // flex-wrap: wrap;
 
 
     @media screen and (min-width: 678px) {
         align-items: end;
-        flex-wrap: wrap;
     }
 
     @media screen and (min-width: 1340px) {
@@ -22,10 +22,10 @@ footer {
 
 .footer-box {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 
     @media screen and (min-width: 678px) {
-        flex-wrap: wrap;
-        display: flex;
         justify-content: space-around;
     }
 
@@ -42,9 +42,17 @@ footer {
 }
 
 .footer-list {
-    margin-right: 90px;
     outline: solid red;
-    margin-bottom: 72px;
+    margin-bottom: 28px;
+
+    @media screen and (min-width: 678px) {
+        margin-right: 90px;
+        margin-bottom: 72px;
+    }
+
+    @media screen and (min-width: 1340px) {
+        margin: 0;
+    }
 }
 
 
@@ -66,10 +74,7 @@ footer {
 }
 
 .footer-networks {
-    display: flex;
-    flex-direction: column;
-    margin-left: 112px;
-    margin-right: 47px;
+    display: none;
 
     @media screen and (min-width:678px) {
         display: none;
@@ -77,6 +82,9 @@ footer {
 
     @media screen and (min-width:1340px) {
         display: flex;
+        margin-left: 112px;
+        margin-right: 47px;
+        flex-direction: column;
     }
 }
 
@@ -86,36 +94,55 @@ footer {
 }
 
 .footer-title {
-    margin-bottom: 16px;
-    text-align: center;
     color: var(--title-1, #DDE5E8);
     font-family: "Roboto Condensed";
-    font-size: 28px;
-    font-style: normal;
+    font-size: 20px;
     font-weight: 400;
-    line-height: 36px;
-    letter-spacing: -1.12px;
+    line-height: 30px;
+    letter-spacing: -0.8px;
+
+    @media screen and (min-width: 678px) {
+        color: var(--title-1, #DDE5E8);
+        font-family: "Roboto Condensed";
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 40px;
+        letter-spacing: -1.28px;
+    }
+
+    @media screen and (min-width: 1340px) {
+        margin-bottom: 16px;
+        text-align: center;
+        color: var(--title-1, #DDE5E8);
+        font-family: "Roboto Condensed";
+        font-size: 28px;
+        font-weight: 400;
+        line-height: 36px;
+        letter-spacing: -1.12px;
+    }
 }
 
 .footer-text {
+    color: var(--title-1, #DDE5E8);
+    font-family: "Roboto Condensed";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.56px;
 
-    @media screen and (min-width:678px) {
+    @media screen and (min-width: 678px) {
         color: var(--title-1, #DDE5E8);
-        /* tablet/text */
         font-family: "Roboto Condensed";
         font-size: 24px;
-        font-style: normal;
         font-weight: 400;
         line-height: 36px;
-        /* 150% */
         letter-spacing: -0.96px;
     }
 
-    @media screen and (min-width:678px) {
+    @media screen and (min-width: 1340px) {
         color: var(--title-1, #DDE5E8);
         font-family: "Roboto Condensed";
         font-size: 16px;
-        font-style: normal;
         font-weight: 400;
         line-height: 24px;
         letter-spacing: -0.64px;
@@ -125,19 +152,55 @@ footer {
 .addres-title {
     color: var(--title-1, #DDE5E8);
     font-family: "Roboto Condensed";
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
-    line-height: 24px;
-    letter-spacing: -0.64px;
+    line-height: 20px;
+    letter-spacing: -0.56px;
+
+    @media screen and (min-width: 678px) {
+        color: var(--title-1, #DDE5E8);
+        font-family: "Roboto Condensed";
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 36px;
+        letter-spacing: -0.96px;
+    }
+
+    @media screen and (min-width: 1340px) {
+        color: var(--title-1, #DDE5E8);
+        font-family: "Roboto Condensed";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: -0.64px;
+    }
 }
 
 .addres-text {
     color: var(--title-1, #DDE5E8);
     font-family: "Roboto Condensed";
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
-    line-height: 24px;
-    letter-spacing: -0.64px;
+    line-height: 20px;
+    letter-spacing: -0.56px;
+
+    @media screen and (min-width: 678px) {
+        color: var(--title-1, #DDE5E8);
+        font-family: "Roboto Condensed";
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 36px;
+        letter-spacing: -0.96px;
+    }
+
+    @media screen and (min-width: 1340px) {
+        color: var(--title-1, #DDE5E8);
+        font-family: "Roboto Condensed";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: -0.64px;
+    }
 }
 
 .networks-title {
@@ -175,13 +238,21 @@ footer {
 }
 
 .footer-logo {
-    width: 148px;
+
+    width: 140px;
     height: 146px;
 
+
+    @media screen and (min-width: 375px) {
+        width: 148px;
+        height: 146px;
+    }
+
+
     @media screen and (min-width: 678px) {
-        width: 200px;
-        height: 250px;
-        outline: red solid;
+        margin-top: 36px;
+        width: 268px;
+        height: 320px;
     }
 
     @media screen and (min-width: 1340px) {
@@ -192,7 +263,6 @@ footer {
 }
 
 .tablet-icon {
-
     display: flex;
     width: 100%;
     margin-top: 57px;
@@ -206,14 +276,22 @@ footer {
     width: 100%;
     display: flex;
     justify-content: center;
-    gap: 35px;
+    gap: 20px;
 
+    @media screen and (min-width: 678px) {
+        gap: 35px;
+    }
 }
 
 
 .tablet-icon-svg {
     fill: none;
     stroke: white;
-    width: 40px;
-    height: 40px;
+    width: 24px;
+    height: 24px;
+
+    @media screen and (min-width: 678px) {
+        width: 40px;
+        height: 40px;
+    }
 }
