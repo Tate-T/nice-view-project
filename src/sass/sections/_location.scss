@@ -4,21 +4,40 @@
 
 .location-box {
     display: flex;
+    flex-wrap: wrap;
     position: relative;
+    width: 100%;
 }
 
 .location-list {
+    position: absolute;
+    top: 0;
+    display: inline-flex;
+    padding: 4px 8px 4px 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    border-radius: 0px 0px 4px 0px;
+    background: #EFE8DD;
+
     @media screen and (min-width: 678px) {
         display: flex;
         flex-direction: column;
         gap: 16px;
         position: absolute;
-        top: 32px;
+        top: 0;
         border-radius: 0px 0px 8px 0px;
         background: #EFE8DD;
     }
 
     @media screen and (min-width: 1340px) {
+        display: block;
+        flex-direction: row;
+        gap: 16px;
+        position: static;
+        top: 0;
+        border-radius: 0;
+        background: none;
         margin-top: 198px;
         margin-right: 109px;
     }
@@ -30,20 +49,25 @@
 
 .location-title {
     position: relative;
-    text-align: center;
+    text-align: start;
+    color: $text-color;
+    font-family: Nunito;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: -1.2px;
 
     @media screen and (min-width: 678px) {
-        text-align: start;
-        color: $text-color;
         font-family: Nunito;
         font-size: 40px;
         font-weight: 400;
         line-height: 48px;
         letter-spacing: -2px;
+        margin-bottom: 24px;
     }
 
     @media screen and (min-width: 1340px) {
-        color: $text-color;
+        text-align: center;
         font-family: Nunito;
         font-size: 40px;
         font-weight: 400;
@@ -66,22 +90,28 @@
         width: 880px;
         height: 4px;
         background-color: #ceb181;
-        bottom: -8px;
-        right: 0;
+        top: 100%;
     }
 }
 
 .location-text {
     color: $text-color;
     font-family: "Roboto Condensed";
-    font-size: 24px;
+    font-size: 14px;
     font-weight: 400;
-    line-height: 36px;
-    letter-spacing: -0.96px;
+    line-height: 20px;
+    letter-spacing: -0.56px;
 
+    @media screen and (min-width: 678px) {
+        color: $text-color;
+        font-family: "Roboto Condensed";
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 36px;
+        letter-spacing: -0.96px;
+    }
 
     @media screen and (min-width: 1340px) {
-        color: $text-color;
         font-family: "Roboto Condensed";
         font-size: 24px;
         font-style: italic;
@@ -94,13 +124,20 @@
 .location-subtitle {
     color: $text-color;
     font-family: "Roboto Condensed";
-    font-size: 24px;
+    font-size: 14px;
     font-weight: 500;
-    line-height: 36px;
-    letter-spacing: -0.96px;
+    line-height: 20px;
+    letter-spacing: -0.56px;
+
+    @media screen and (min-width: 678px) {
+        font-family: "Roboto Condensed";
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 36px;
+        letter-spacing: -0.96px;
+    }
 
     @media screen and (min-width: 1340px) {
-        color: $text-color;
         font-family: "Roboto Condensed";
         font-size: 24px;
         font-weight: 500;
@@ -110,7 +147,62 @@
 }
 
 .location-link {
-    margin-top: 32px;
-    width: 872px;
-    height: 526px;
+    width: 100%;
+    height: 221px;
+    flex-shrink: 0;
+
+    @media screen and (min-width: 678px) {
+        width: 100%;
+        height: 440px;
+        flex-shrink: 0;
+    }
+
+    @media screen and (min-width: 1340px) {
+        margin-top: 32px;
+        width: 872px;
+        height: 526px;
+    }
+
+}
+
+.location-btn {
+    margin: 24px auto 0 auto;
+    display: flex;
+    padding: 8px 102px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 20px;
+    border: 2px solid #2B9EE7;
+    background: #C9E4EA;
+    color: #2B9EE7;
+    font-family: "Roboto Condensed";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: -0.96px;
+
+    @media screen and (min-width: 678px) {
+        margin: 32px auto 0 auto;
+        display: flex;
+        width: 400px;
+        height: 68px;
+        padding: 16px 40px;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+        border-radius: 20px;
+        border: 2px solid #2B9EE7;
+        background: #C9E4EA;
+        color: #2B9EE7;
+        font-family: "Roboto Condensed";
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 36px;
+        letter-spacing: -0.96px;
+    }
+
+    @media screen and (min-width: 1340px) {
+        display: none;
+    }
 }
