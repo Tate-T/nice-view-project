@@ -1,3 +1,4 @@
+
 .infrastructure {
 
 
@@ -5,37 +6,251 @@
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
-        height: 738px;
-        gap: 16px;
-        margin-top: 24px;
-        padding-bottom: 119px;
+        height: 356px;
+        column-gap: 8px;
+        row-gap: 12px;
+        margin-top: 12px;
+        padding-bottom: 56px;
+
+        @media screen and (min-width: 678px) {
+            height: 516px;
+            padding-bottom: 100px;
+            margin-top: 24px;
+            margin-left: -10%;
+            column-gap: 16px;
+            row-gap: 16px;
+        }
+
+        @media screen and (min-width: 1340px) {
+            width: 678px;
+            height: 738px;
+            padding-bottom: 119px;
+            margin-left: 0;
+            column-gap: 18px;
+            row-gap: 16px;
+        }
     }
 
-    &__item {
+    &__title {
         color: var(--subtitle-1, #324052);
-        /* desktop/h2 */
+
+        /* mobile/h2 */
         font-family: Nunito;
-        font-size: 40px;
+        font-size: 24px;
         font-style: normal;
         font-weight: 400;
-        line-height: 56px;
-        /* 140% */
-        letter-spacing: -2px;
-        padding-left: 584px;
+        line-height: 36px;
+        /* 150% */
+        letter-spacing: -1.2px;
+        margin-left: 16px;
+
+        @media screen and (min-width: 678px) {
+            font-size: 40px;
+            line-height: 48px;
+            /* 120% */
+            letter-spacing: -2px;
+            margin-left: 38px;
+        }
+
+        @media screen and (min-width: 1340px) {
+            line-height: 56px;
+            /* 140% */
+            text-align: center;
+        }
     }
 
     &__text {
         color: var(--subtitle-1, #324052);
 
-        /* desktop/h3 */
+        /* mobile/text */
         font-family: "Roboto Condensed";
-        font-size: 24px;
-        font-style: italic;
+        font-size: 14px;
+        font-style: normal;
         font-weight: 400;
-        line-height: 36px;
-        /* 150% */
-        letter-spacing: -0.96px;
-        margin-top: 40px;
+        line-height: 20px;
+        /* 142.857% */
+        letter-spacing: -0.56px;
+        margin-left: 24px;
+        margin-top: 12px;
+
+        @media screen and (min-width: 678px) {
+            font-size: 24px;
+            line-height: 36px;
+            /* 150% */
+            letter-spacing: -0.96px;
+            margin-left: 50px;
+            margin-top: 24px;
+        }
+
+        @media screen and (min-width: 1340px) {
+            font-style: italic;
+            margin-left: 68px;
+            margin-top: 24px;
+        }
+    }
+
+    &__item:nth-child(1) {
+
+        width: 80px;
+        height: 80px;
+        border-radius: 8px;
+        background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+        box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.15);
+
+        @media screen and (min-width: 678px) {
+            width: 200px;
+            height: 200px;
+
+        }
+
+        @media screen and (min-width: 1340px) {
+            width: 316px;
+            height: 290px;
+            border-radius: 0px;
+        }
+    }
+
+    &__item:nth-child(2) {
+
+        width: 80px;
+        height: 120px;
+        border-radius: 8px;
+        background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+        box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.15);
+
+        @media screen and (min-width: 678px) {
+            width: 200px;
+            height: 300px;
+
+        }
+
+        @media screen and (min-width: 1340px) {
+            width: 316px;
+            height: 432px;
+            border-radius: 0px;
+        }
+    }
+
+    &__item:nth-child(3) {
+
+        width: 80px;
+        height: 120px;
+        border-radius: 8px;
+        background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+        box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.15);
+
+        @media screen and (min-width: 678px) {
+            width: 200px;
+            height: 300px;
+        }
+
+        @media screen and (min-width: 1340px) {
+            width: 316px;
+            height: 432px;
+            border-radius: 0px;
+        }
+    }
+
+    &__item:nth-child(4) {
+
+        width: 80px;
+        height: 80px;
+        border-radius: 8px;
+        background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+        box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.15);
+
+        @media screen and (min-width: 678px) {
+            width: 200px;
+            height: 200px;
+
+        }
+
+        @media screen and (min-width: 1340px) {
+            width: 316px;
+            height: 290px;
+            border-radius: 0px;
+        }
+    }
+
+    &__item:nth-child(5) {
+
+        width: 80px;
+        height: 80px;
+        border-radius: 8px;
+        background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+        box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.15);
+
+        @media screen and (min-width: 678px) {
+            width: 200px;
+            height: 200px;
+
+        }
+
+        @media screen and (min-width: 1340px) {
+            width: 316px;
+            height: 290px;
+            border-radius: 0px;
+        }
+    }
+
+    &__item:nth-child(6) {
+
+        width: 80px;
+        height: 120px;
+        border-radius: 8px;
+        background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+        box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.15);
+
+        @media screen and (min-width: 678px) {
+            width: 200px;
+            height: 300px;
+        }
+
+        @media screen and (min-width: 1340px) {
+            width: 316px;
+            height: 432px;
+            border-radius: 0px;
+        }
+    }
+
+    &__item:nth-child(7) {
+        width: 80px;
+        height: 120px;
+        border-radius: 8px;
+        background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+        box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.15);
+
+        @media screen and (min-width: 678px) {
+            width: 200px;
+            height: 300px;
+        }
+
+        @media screen and (min-width: 1340px) {
+            width: 316px;
+            height: 432px;
+            border-radius: 0px;
+        }
+    }
+
+    &__item:nth-child(8) {
+
+        width: 80px;
+        height: 80px;
+        border-radius: 8px;
+        background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+        box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.15);
+
+        @media screen and (min-width: 678px) {
+            width: 200px;
+            height: 200px;
+
+        }
+
+        @media screen and (min-width: 1340px) {
+            width: 316px;
+            height: 290px;
+            border-radius: 0px;
+        }
     }
 
 }
