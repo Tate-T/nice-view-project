@@ -19,7 +19,7 @@
 
   <title>Nice View</title>
   <script type="module" crossorigin src="/nice-view-project/commonHelpers.js"></script>
-  <link rel="stylesheet" href="/nice-view-project/assets/index-61090b3d.css">
+  <link rel="stylesheet" href="/nice-view-project/assets/index-4d27b211.css">
 </head>
 
 <body>
@@ -209,11 +209,15 @@
     <div class="container">
         <h2 class="gallery__headline">Галерея</h2>
         <div class="gallery__container">
-            <svg class="gallery__svg gallery__svg-left">
-                <use href="../img/icons.svg#icon-icon-button-left"></use>
+            <svg class="gallery__tablet-svg gallery__tablet-svg-left">
+                <use href="../img/icons.svg#icon-bttn-right-gallery"></use>
+            </svg>
+            <svg class="gallery__desktop-svg gallery__desktop-svg-left">
+                <use href="../img/icons.svg#icon-icon-button-right"></use>
             </svg>
             <ul class="gallery__list">
                 <li class="gallery__item">
+
                     <article class="gallery__article">
                         <picture class="gallery__picture">
                             <source media="(min-width: 1200px)" srcset="../img/desktop/gallery-desktop@1x.webp 1x, ../img/desktop/gallery-desktop@2x.webp 2x">
@@ -245,12 +249,49 @@
                             <img class="gallery__img gallery__img-pos-right" src="../img/mobile/gallery-mobile@1x.webp" alt="">
                         </picture>
                     </article>
+
                 </li>
             </ul>
-            <svg class="gallery__svg gallery__svg-right">
+            <svg class="gallery__desktop-svg gallery__desktop-svg-right">
                 <use href="../img/icons.svg#icon-icon-button-right"></use>
             </svg>
+            <svg class="gallery__tablet-svg gallery__tablet-svg-right">
+                <use href="../img/icons.svg#icon-bttn-right-gallery"></use>
+            </svg>
         </div>
+        
+        <ul class="gallery__circle-list">
+            <li class="gallery__circle-item">
+                <svg class="gallery__svg-circle-big">
+                    <use href="../img/icons.svg#icon-gallery-circle-svg"></use>
+                </svg>
+            </li>
+            <li class="gallery__circle-item">
+                <svg class="gallery__svg-circle">
+                    <use href="../img/icons.svg#icon-gallery-circle-svg-small"></use>
+                </svg>
+            </li>
+            <li class="gallery__circle-item">
+                <svg class="gallery__svg-circle">
+                    <use href="../img/icons.svg#icon-gallery-circle-svg-small"></use>
+                </svg>
+            </li>
+            <li class="gallery__circle-item">
+                <svg class="gallery__svg-circle">
+                    <use href="../img/icons.svg#icon-gallery-circle-svg-small"></use>
+                </svg>
+            </li>
+            <li class="gallery__circle-item">
+                <svg class="gallery__svg-circle">
+                    <use href="../img/icons.svg#icon-gallery-circle-svg-small"></use>
+                </svg>
+            </li>
+            <li class="gallery__circle-item">
+                <svg class="gallery__svg-circle">
+                    <use href="../img/icons.svg#icon-gallery-circle-svg-small"></use>
+                </svg>
+            </li>
+        </ul>
 
 
         <button type="button" class="gallery__button">Запис на перегляд</button>
