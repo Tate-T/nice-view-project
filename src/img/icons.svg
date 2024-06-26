@@ -49,5 +49,11 @@
 <symbol id="icon-bttn-right-gallery" viewBox="0 0 27 32">
 <path fill="#fbfcfc" style="fill: var(--color1, #fbfcfc); stroke: var(--color2, #8d6515)" stroke="#8d6515" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="2.1005" d="M25.067 16l-24 13.856v-27.713l24 13.856z"></path>
 </symbol>
+<symbol id="icon-gallery-circle-svg" viewBox="0 0 32 32">
+<path d="M16 0c8.837 0 16 7.163 16 16s-7.163 16-16 16c-8.837 0-16-7.163-16-16s7.163-16 16-16z"></path>
+</symbol>
+<symbol id="icon-gallery-circle-svg-small" viewBox="0 0 32 32">
+<path d="M16 0c8.837 0 16 7.163 16 16s-7.163 16-16 16c-8.837 0-16-7.163-16-16s7.163-16 16-16z"></path>
+</symbol>
 </defs>
 </svg>
