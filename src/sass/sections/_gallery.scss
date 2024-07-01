@@ -6,7 +6,7 @@
 
     @media screen and (min-width: 768px) {}
 
-    @media screen and (min-width: 1200px) {
+    @media screen and (min-width: 1300px) {
         padding-top: 119px;
         padding-bottom: 112px;
         background: var(--fon-1, #FBFCFC);
@@ -32,6 +32,7 @@
         letter-spacing: -2px;
         text-align: center;
         position: relative;
+       
 
 
 
@@ -40,7 +41,7 @@
 
         @media screen and (min-width: 768px) {}
 
-        @media screen and (min-width: 1200px) {
+        @media screen and (min-width: 1300px) {
             margin-bottom: 26px;
             font-size: 40px;
         }
@@ -59,7 +60,7 @@
 
         @media screen and (min-width: 768px) {}
 
-        @media screen and (min-width: 1200px) {
+        @media screen and (min-width: 1300px) {
             bottom: -8px;
             right: 0;
             width: 936px;
@@ -73,7 +74,7 @@
     &__list {
         display: flex;
         justify-content: center;
-        position: relative;
+
 
 
 
@@ -90,23 +91,30 @@
             justify-content: center;
         }
 
-        @media screen and (min-width: 1200px) {
+        @media screen and (min-width: 1300px) {
             display: flex;
-            justify-content: center;
+            justify-content: space-between;
             align-items: center;
             position: relative;
+            margin-top: 74px;
+            margin-bottom: 130px;
+            width: 100%;
+           
+
         }
     }
 
 
     &__item {
-        position: relative;
+
     }
 
     &__img {
         border-radius: 8px;
         background: url(<path-to-image>) lightgray 50% / cover no-repeat;
         box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.50);
+        max-width: 400px;
+       
 
     }
 
@@ -114,17 +122,21 @@
 
 
     &__article {
-        position: relative;
+
     }
 
 
     &__img-z {
 position: absolute;
+z-index: 2;
+top: -50px;
+left: 297px;
+max-width: 501px;
 
 
     }
 
-    &__svg {
+    &__desktop-svg {
 
         flex-shrink: 0;
 
@@ -134,20 +146,21 @@ position: absolute;
 
         @media screen and (min-width: 768px) {}
 
-        @media screen and (min-width: 1200px) {
+        @media screen and (min-width: 1300px) {
             width: 47.249px;
             height: 48px;
         }
     }
 
 
-    &__svg-left {
-        margin-right: 362px;
+    &__desktop-svg-left {
+        margin-right: 64px;
+        transform: rotate(180deg);
     }
 
 
-    &__svg-right {
-        margin-left: 362px;
+    &__desktop-svg-right {
+        margin-left: 64px;
     }
 
 
@@ -171,7 +184,7 @@ position: absolute;
 
         @media screen and (min-width: 768px) {}
 
-        @media screen and (min-width: 1200px) {
+        @media screen and (min-width: 1300px) {
             padding-left: 108px;
             padding-right: 108px;
             padding-top: 16px;
@@ -182,8 +195,28 @@ position: absolute;
             line-height: 36px;
             /* 150% */
             letter-spacing: -0.96px;
-            margin-top: 81px;
+            
         }
 
+    }
+
+    &__circle-list {
+        @media screen and (min-width: 1300px) {
+display: none;
+        }  
+    }
+
+
+    &__tablet-svg-left {
+        transform: rotate(180deg);
+        @media screen and (min-width: 1300px) {
+            display: none;
+                    }  
+    }
+
+    &__tablet-svg-right {
+        @media screen and (min-width: 1300px) {
+            display: none;
+                    }  
     }
 }
