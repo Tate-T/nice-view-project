@@ -1,29 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+      integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
-    integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Marcellus+SC&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Marcellus+SC&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
-    rel="stylesheet">
+    
 
-  
+    <title>Nice View</title>
+    <script type="module" crossorigin src="/nice-view-project/commonHelpers.js"></script>
+    <link rel="stylesheet" href="/nice-view-project/assets/index-ab8023ea.css">
+  </head>
 
-  <title>Nice View</title>
-  <script type="module" crossorigin src="/nice-view-project/commonHelpers.js"></script>
-  <link rel="stylesheet" href="/nice-view-project/assets/index-9ad32947.css">
-</head>
-
-<body>
-  <header>
+  <body>
+    <header>
     <div class="container">
         <div class="header-box">
             <div class="logo-box">
@@ -64,16 +68,19 @@
 
   
 </header>
-  <section class="hero">
-    <div class="container">
-        <h1 class="hero-title">ЖК “Nice view”</h1>
-        <p class="hero-text">При 100% оплаті знижка 5% від банку. Пропозиція дійсна до 31.12.22 р.</p>
-        <button class="hero-btn">
-            <p class="hero-btn-text">Дзвінок</p>
-        </button>
-    </div>
+    <section class="hero">
+  <div class="container">
+    <h1 class="hero-title">ЖК “Nice view”</h1>
+    <p class="hero-text">
+      При 100% оплаті знижка 5% від банку. Пропозиція дійсна до 31.12.22 р.
+    </p>
+    <button data-modal-open class="hero-btn" type="button">
+      <p class="hero-btn-text">Дзвінок</p>
+    </button>
+  </div>
 </section>
-  <section class="features">
+
+    <section class="features">
   <div class="container">
     <h2 class="features-tittle">Особливості планування</h2>
     <div class="container-features">
@@ -109,8 +116,8 @@
   </div>
 </section>
 
-  
-  <section class="advantages">
+    
+    <section class="advantages">
   <div class="container">
     <h1 class="logo">Переваги комплексу</h1>
 
@@ -212,7 +219,7 @@
   </div>
 </section>
 
-  <section class="gallery">
+    <section class="gallery">
     <div class="container">
         <h2 class="gallery__headline">Галерея</h2>
         <div class="gallery__container">
@@ -315,7 +322,7 @@
         <button type="button" class="gallery__button">Запис на перегляд</button>
     </div>
 </section>
-  <section class="infrastructure">
+    <section class="infrastructure">
     <div class="container">
         <h2 class="infrastructure__title">Інфраструктура</h2>
         <p class="infrastructure__text">*знаходяться в радіусі 1 км від ЖК</p>
@@ -347,7 +354,7 @@
         </ul>
     </div>
 </section>
-  <section class="location">
+    <section class="location">
     <div class="container">
         <h2 class="location-title ">Місце розположення</h2>
         <div class="location-box">
@@ -377,7 +384,7 @@
         </div>
     </div>
 </section>
-  <section class="form">
+    <section class="form">
     <div class="container">
         <h2 class="form-title">Отримати консультацію</h2>
         <h5 class="form-warning">Поля відмічені * є обов’язковими для заповнення</h5>
@@ -397,8 +404,8 @@
         </ul>
         <button class="form-btn">Дзвінок</button>
     </div>
-</section> 
-  <footer class="footer">
+</section>
+    <footer class="footer">
     <div class="container footer-container">
         <div class="footer-box">
             <ul class="footer-list">
@@ -483,8 +490,43 @@
         </div>
     </div>
 </footer>
+    <div data-modal class="backdrop is-hidden">
+  <div class="modal">
+    <button data-modal-close class="modal__btn" type="button">
+      <svg class="modal-close">
+        <use href="../img/icons.svg#icon-icon-close"></use>
+      </svg>
+    </button>
+    <h3 class="modal-mobile-tittle">ЖК “Nice view”</h3>
+    <h2 class="modal-tittle">
+      Замовте консультацію <span class="modal-selected">зараз</span> і ми
+      перетелефонуємо протягом 5 хвилин.
+    </h2>
+    <form action="" class="modal-form">
+      <label for="" class="modal-container">
+        <span class="modal-text">Як до Вас звертатися?</span>
+        <input
+          type="text"
+          placeholder="Елизавета Валеріївна"
+          class="modal-input"
+        />
+      </label>
+      <label for="" class="modal-container">
+        <span class="modal-text">Введіть Ваш номер телефону:</span>
+        <input
+          type="text"
+          placeholder="+38 (000) 000 00 00"
+          class="modal-input"
+        />
+      </label>
+    </form>
+    <p class="modal-mobile-text">Ми перетелефонуємо протягом 5 хвилин.</p>
+    <button modal-button type="submit" class="modal-btn">Дзвінок</button>
+  </div>
+</div>
 
-  
-</body>
 
+    
+    <script src="./modal.js"></script>
+  </body>
 </html>
