@@ -1,0 +1,199 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  background: rgba(16, 44, 81, 0.6);
+}
+
+.modal {
+  border-radius: 8px;
+  border: 4px solid var(--1, #ceb181);
+  background-image: url(../img/hero-bacground.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 352px;
+  padding-top: 68px;
+  padding-bottom: 44px;
+  position: relative;
+  background-color: #fff;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(360deg);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  padding-left: 16px;
+  padding-right: 16px;
+
+  @media screen and (min-width: 678px) {
+    width: 900px;
+    padding-top: 92px;
+    padding-bottom: 84px;
+  }
+}
+
+.modal-tittle {
+  display: none;
+  @media screen and (min-width: 678px) {
+    color: $accent-color;
+    font-family: "Roboto Condensed";
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: -0.96px;
+    text-align: center;
+    padding: 8px;
+    margin-bottom: 16px;
+    display: block;
+  }
+}
+
+.modal-selected {
+  color: $accent-color;
+  font-family: "Roboto Condensed";
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: -0.96px;
+}
+
+.modal-text {
+  color: $text-color;
+  font-family: "Roboto Condensed";
+  font-weight: 400;
+  font-size: 20px;
+  font-style: normal;
+  line-height: 30px;
+  letter-spacing: -0.8px;
+  margin-bottom: 4px;
+
+  @media screen and (min-width: 678px) {
+    line-height: 36px;
+    letter-spacing: -0.96px;
+    font-size: 24px;
+    font-style: italic;
+    margin-bottom: 8px;
+  }
+}
+
+.modal-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  @media screen and (min-width: 678px) {
+    margin-bottom: 40px;
+    gap: 100px;
+  }
+}
+
+.modal-container {
+  @media screen and (min-width: 678px) {
+    flex-direction: column;
+    display: flex;
+  }
+}
+
+.modal-input {
+  border-radius: 12px;
+  padding: 20px;
+  width: 320px;
+  border: 1px solid $border-color;
+  background: $input-color;
+}
+
+.modal-input::placeholder {
+  color: $placeholder-input;
+  font-family: "Roboto Condensed";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.56px;
+
+  @media screen and (min-width: 678px) {
+    font-size: 24px;
+    font-style: italic;
+    line-height: 36px;
+    letter-spacing: -0.96px;
+  }
+}
+
+.modal-btn {
+  width: 320px;
+  border-radius: 20px;
+  border: 2px solid $button-color;
+  background: $background-color;
+  padding: 16px 102px;
+  color: $button-color;
+  font-family: "Roboto Condensed";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: -0.96px;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: center;
+
+  @media screen and (min-width: 678px) {
+    width: 480px;
+  }
+}
+
+.modal-close {
+  width: 36px;
+  height: 36px;
+  fill: #324052;
+  position: absolute;
+  right: 16px;
+  top: 16px;
+
+  @media screen and (min-width: 678px) {
+    width: 48px;
+    height: 48px;
+  }
+}
+
+.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+}
+
+.modal-mobile-tittle {
+  font-family: Nunito;
+  font-size: 40px;
+  font-style: italic;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: -2px;
+  color: $accent-color;
+  text-align: center;
+  margin-bottom: 4px;
+
+  @media screen and (min-width: 678px) {
+    display: none;
+  }
+}
+
+.modal-mobile-text {
+  text-align: center;
+  color: $accent-color;
+  font-family: "Roboto Condensed";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: -0.8px;
+  margin-bottom: 16px;
+  margin-top: 4px;
+
+  @media screen and (min-width: 678px) {
+    display: none;
+  }
+}
