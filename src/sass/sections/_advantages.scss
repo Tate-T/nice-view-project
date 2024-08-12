@@ -105,7 +105,7 @@ margin-top: 24px;
 
 
 .photo2{
-   position: relative;
+  
   
 }
 
@@ -123,14 +123,14 @@ left: 60px;
 
 
 .text-item2{
-   position: relative;
-   
-left: 670px;
-top: 288px;
-
-
+  
+margin-top: 300px;
 }
 
+.fix{
+    display: flex;
+    
+}
 
 @media screen and ( max-width:1340px){
 
@@ -162,7 +162,7 @@ height: 320px;
        
      }
      
-
+     
 
 
 
@@ -186,10 +186,10 @@ height: 320px;
      .text-item2{
         position: relative;
         top: 330px;
-       margin-left: -420px;
+       margin-left: 0px;
         height: 320px;
         width: 366px;
-        margin-top: -280px;
+        margin-top: -300px;
         padding-top: 10px;
 padding-left: 24px;
         border-radius: 16px;
@@ -200,6 +200,20 @@ background: var(--title-1, #DDE5E8);
     
 
 
+     .text-item3{
+        position: relative;
+        top: 330px;
+       margin-left: 0px;
+        height: 320px;
+        width: 366px;
+        margin-left: 250px;
+        margin-top: -300px;
+        padding-top: 10px;
+padding-left: 24px;
+        border-radius: 16px;
+background: var(--title-1, #DDE5E8);
+// box-shadow: 20px 30px 20px 20px rgba(20, 20, 20, 15);
+     }
 
      
     .info-text{
@@ -264,19 +278,29 @@ background: var(--title-1, #DDE5E8);
             width: 126px;
             height: 160px;
             flex-shrink: 0;
-            margin-bottom: 128px;
+            margin-bottom: 8px;
            
     
          
            
          }
     
+         .photo12{
+            width: 126px;
+            height: 160px;
+            flex-shrink: 0;
+            margin-bottom: 108px;
+           
+    
+         
+           
+         }
          .photo2{
             width: 126px;
             height: 160px;
             flex-shrink: 0;
            
-            margin-bottom: 128px;
+            margin-bottom: 108px;
          }
          
     
@@ -296,6 +320,7 @@ background: var(--title-1, #DDE5E8);
           padding-left: 24px;
           border-radius: 16px;
         
+          margin-bottom: 10px;
     
          }
     
@@ -303,7 +328,24 @@ background: var(--title-1, #DDE5E8);
          .text-item2{
             position: relative;
             top: 150px;
-           margin-left: -520px;
+           margin-left: 20px;
+            height: 150px;
+            width: 176px;
+            margin-top: -170px;
+            padding-top: 10px;
+    padding-left: 24px;
+            border-radius: 16px;
+    background: var(--title-1, #DDE5E8);
+    // box-shadow: 20px 30px 20px 20px rgba(20, 20, 20, 15);
+
+         }
+    
+        
+         .text-item3{
+            position: relative;
+            top: 150px;
+            margin-left: 150px;
+            margin-bottom: 20px;
             height: 160px;
             width: 176px;
             margin-top: -280px;
@@ -314,9 +356,6 @@ background: var(--title-1, #DDE5E8);
     // box-shadow: 20px 30px 20px 20px rgba(20, 20, 20, 15);
 
          }
-    
-        
-
     
     
     
@@ -342,7 +381,7 @@ background: var(--title-1, #DDE5E8);
          
             font-size: 24px;
            
-            padding-top: 23px;
+            padding-top: 33px;
                 line-height: 36px;
            
         }
