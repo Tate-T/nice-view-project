@@ -50,9 +50,10 @@
             font-size: 40px;
             font-style: normal;
             font-weight: 400;
-            line-height: 48px; /* 120% */
+            line-height: 48px;
+            /* 120% */
             letter-spacing: -2px;
-           margin-left: 32px;
+            margin-left: 32px;
         }
 
         @media screen and (min-width: 1340px) {
@@ -78,7 +79,18 @@
             width: 936px;
             height: 4px;
             margin-top: 16px;
-        text-align: end;
+            text-align: end;
+        }
+    }
+
+    &___imag {
+        width: 80px;
+        @media screen and (min-width: 678px) {
+            width: 200px;
+        }
+
+        @media screen and (min-width: 1340px) {
+            width: 316px;
         }
     }
 
