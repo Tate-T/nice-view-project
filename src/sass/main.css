@@ -1648,8 +1648,7 @@ header {
     font-size: 40px;
     font-style: normal;
     font-weight: 400;
-    line-height: 48px;
-    /* 120% */
+    line-height: 48px; /* 120% */
     letter-spacing: -2px;
     margin-left: 32px;
   }
@@ -1680,19 +1679,6 @@ header {
     height: 4px;
     margin-top: 16px;
     text-align: end;
-  }
-}
-.infrastructure___imag {
-  width: 80px;
-}
-@media screen and (min-width: 678px) {
-  .infrastructure___imag {
-    width: 200px;
-  }
-}
-@media screen and (min-width: 1340px) {
-  .infrastructure___imag {
-    width: 316px;
   }
 }
 .infrastructure__text {
@@ -1729,8 +1715,6 @@ header {
   width: 80px;
   height: 80px;
   border-radius: 8px;
-  background: url(<path-to-image>) lightgray 50%/cover no-repeat;
-  box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.15);
 }
 @media screen and (min-width: 678px) {
   .infrastructure__item:nth-child(1) {
@@ -1749,8 +1733,6 @@ header {
   width: 80px;
   height: 120px;
   border-radius: 8px;
-  background: url(<path-to-image>) lightgray 50%/cover no-repeat;
-  box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.15);
 }
 @media screen and (min-width: 678px) {
   .infrastructure__item:nth-child(2) {
@@ -1769,8 +1751,6 @@ header {
   width: 80px;
   height: 120px;
   border-radius: 8px;
-  background: url(<path-to-image>) lightgray 50%/cover no-repeat;
-  box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.15);
 }
 @media screen and (min-width: 678px) {
   .infrastructure__item:nth-child(3) {
@@ -1789,8 +1769,6 @@ header {
   width: 80px;
   height: 80px;
   border-radius: 8px;
-  background: url(<path-to-image>) lightgray 50%/cover no-repeat;
-  box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.15);
 }
 @media screen and (min-width: 678px) {
   .infrastructure__item:nth-child(4) {
@@ -1809,8 +1787,6 @@ header {
   width: 80px;
   height: 80px;
   border-radius: 8px;
-  background: url(<path-to-image>) lightgray 50%/cover no-repeat;
-  box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.15);
 }
 @media screen and (min-width: 678px) {
   .infrastructure__item:nth-child(5) {
@@ -1829,8 +1805,6 @@ header {
   width: 80px;
   height: 120px;
   border-radius: 8px;
-  background: url(<path-to-image>) lightgray 50%/cover no-repeat;
-  box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.15);
 }
 @media screen and (min-width: 678px) {
   .infrastructure__item:nth-child(6) {
@@ -1849,8 +1823,6 @@ header {
   width: 80px;
   height: 120px;
   border-radius: 8px;
-  background: url(<path-to-image>) lightgray 50%/cover no-repeat;
-  box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.15);
 }
 @media screen and (min-width: 678px) {
   .infrastructure__item:nth-child(7) {
@@ -1869,8 +1841,6 @@ header {
   width: 80px;
   height: 80px;
   border-radius: 8px;
-  background: url(<path-to-image>) lightgray 50%/cover no-repeat;
-  box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.15);
 }
 @media screen and (min-width: 678px) {
   .infrastructure__item:nth-child(8) {
